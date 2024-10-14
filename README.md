@@ -35,13 +35,13 @@ Além disso, a calculadora oferece as seguintes funcionalidades adicionais:
 2. Compile o código:
 
     ```bash
-    gcc -o calculadora calculadora_binarios.c -lm
+    gcc calculadora.c -o calcbin -lm
     ```
 
 3. Execute o programa:
 
     ```bash
-    ./calculadora
+    ./calcbin
     ```
 
 4. No menu interativo, empilhe **dois números binários** antes de realizar qualquer operação. Após empilhar, você poderá selecionar as operações desejadas.
